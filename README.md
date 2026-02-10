@@ -25,3 +25,11 @@ Usuário
 Palavra-Chave
 Respostas
 Cursos
+
+Resumo:
+
+Destaque Técnico: Implementação de Chatbot com respostas fixas com uso de filtro com ajuda de palavras chaves. Uso de spring security a fim de ter registro de usuários interessados.
+
+Funcionalidade Spring: Filtros avançados para uso do chatbot
+
+Funcionalidade React Native: Visualiação de Chat e caixa de texto.
