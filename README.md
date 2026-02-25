@@ -28,7 +28,7 @@ Cursos
 
 Resumo:
 
-Destaque Técnico: Implementação de Chatbot com respostas fixas com uso de filtro com ajuda de palavras chaves. Uso de spring security a fim de ter registro de usuários interessados.
+Destaque Técnico: Implementação de Chatbot com respostas fixas com uso de filtro com ajuda de palavras chaves. Uso de spring security a fim de ter registro de usuários interessados. Recomendação de uso de SEO
 
 Funcionalidade Spring: Filtros avançados para uso do chatbot
 
