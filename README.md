@@ -1,35 +1,62 @@
 # PJI-ChatBot
 
-A ideia por trás do ChatBot é um chat onde o usuário envia mensagens de dúvidas a respeito do senac. O programa então localiza palavras chaves presentes na mensagem e responde sugestões de respostas. Essas resposta podem ser a resposta exata para o problema ou algo para ajudar a especificar a informação necessária.
+Nosso ChatBot é uma aplicação de atendimento automatizado que permite aos usuários esclarecer dúvidas sobre a instituição. O sistema processa as mensagens enviadas, identifica palavras-chave relevantes e retorna respostas pré-definidas, seja a solução direta para o problema ou orientações para especificar melhor a dúvida.
 
-Exemplo:
-Tenho interesse em estudar no senac.
+### Exemplo de Fluxo
 
-palavra-chave: estudar
+**Mensagem do usuário:**
 
-O senac tem vários cursos, você tem interesse em qual área de aprendizado?
+> "Tenho interesse em estudar no SENAC."
 
-Eu tenho interesse em tecnologia.
-palavra-chave: tecnologia
+**Palavra-chave identificada:** `estudar`
 
-O senac oferece os seguintes cursos:
+**Resposta do Bot:**
 
-Analise de Desenvolvimento de Sistemas.
+> "O SENAC oferece diversos cursos. Em qual área de conhecimento você tem interesse?"
 
-Tecnologias utilizadas: Spring Security
+---
 
-Tabelas necessárias no banco de dados:
+**Mensagem do usuário:**
 
+> "Eu tenho interesse em tecnologia."
 
-Usuário
-Palavra-Chave
-Respostas
-Cursos
+**Palavra-chave identificada:** `tecnologia`
 
-Resumo:
+**Resposta do Bot:**
 
-Destaque Técnico: Implementação de Chatbot com respostas fixas com uso de filtro com ajuda de palavras chaves. Uso de spring security a fim de ter registro de usuários interessados. Recomendação de uso de SEO
+> "O SENAC oferece os seguintes cursos na área de Tecnologia:
+>
+> - Análise e Desenvolvimento de Sistemas
+> - (outros cursos...)"
 
-Funcionalidade Spring: Filtros avançados para uso do chatbot
+---
 
-Funcionalidade React Native: Visualiação de Chat e caixa de texto.
+## Estrutura do Banco de Dados
+
+| Tabela                  | Descrição                                                 |
+| ----------------------- | ----------------------------------------------------------- |
+| **Usuário**      | Armazena os dados dos usuários que interagem com o chatbot |
+| **Palavra-Chave** | Contém os termos-chave para identificação de intents     |
+| **Respostas**     | Armazena as respostas associadas a cada palavra-chave       |
+| **Cursos**        | Mantém o catálogo de cursos oferecidos pelo SENAC         |
+
+---
+
+## Destaques Técnicos
+
+### Arquitetura e Tecnologias
+
+- **Backend:** Implementação de chatbot com respostas fixasbaseadas em filtro de palavras-chave
+- **Segurança:** Utilização do Spring Security para autenticação e controle de acesso
+- **Frontend:** Interface de chat desenvolvida em React Native, com caixa de texto para envio de mensagens
+- **Cadastro:** Registro de usuários interessados para futuras ações de marketing e relacionamento
+
+### Funcionalidades Principais
+
+| Tecnologia                 | Funcionalidade                                                                  |
+| -------------------------- | ------------------------------------------------------------------------------- |
+| **Spring Framework** | Filtros avançados para processamento de mensagens e identificação de intents |
+| **React Native**     | Interface responsiva para visualização do chat e interação do usuário      |
+|                            |                                                                                 |
+
+---
