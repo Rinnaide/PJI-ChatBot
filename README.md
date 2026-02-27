@@ -33,12 +33,12 @@ Nosso ChatBot é uma aplicação de atendimento automatizado que permite aos usu
 
 ## Estrutura do Banco de Dados
 
-| Tabela                  | Descrição                                                 |
-| ----------------------- | ----------------------------------------------------------- |
-| **Usuário**      | Armazena os dados dos usuários que interagem com o chatbot |
-| **Palavra-Chave** | Contém os termos-chave para identificação de intents     |
-| **Respostas**     | Armazena as respostas associadas a cada palavra-chave       |
-| **Cursos**        | Mantém o catálogo de cursos oferecidos pelo SENAC         |
+| Tabela                  | Descrição                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| **Usuário**      | Armazena os dados dos usuários que interagem com o chatbot    |
+| **Palavra-Chave** | Contém os termos-chave para identificação de intents        |
+| **Respostas**     | Armazena as respostas associadas a cada palavra-chave          |
+| **Cursos**        | Mantém a maioria do catálogo de cursos oferecidos pelo SENAC |
 
 ---
 
